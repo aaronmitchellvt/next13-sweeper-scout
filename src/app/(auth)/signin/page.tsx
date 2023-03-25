@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { LanguageServiceMode } from "typescript";
 
 export default function SignIn() {
   const [userPayload, setUserPayload] = useState<IUserPayloadSignIn>({
@@ -22,8 +21,8 @@ export default function SignIn() {
     <main className="bg-orange-400">
       <div className="flex flex-row items-center">
         <h1 className="text-xl font-bold m-4">Sign In Page</h1>
-        <Link href="/auth/create-account" className="rounded p-1 h-8 w-12 bg-sky-300">
-          Create Account
+        <Link href="/register" className="rounded p-1 h-8 w-24 bg-sky-300">
+          Register
         </Link>
       </div>
       <form

@@ -31,7 +31,7 @@ export default function CreateAccount() {
     <main className="bg-orange-400">
       <div className="flex flex-row items-center">
         <h1 className="text-xl font-bold m-4">Create Account Page</h1>
-        <Link href="/auth/sign-in" className="rounded p-1 h-8 w-16 bg-sky-300">Sign In</Link>
+        <Link href="/signin" className="rounded p-1 h-8 w-16 bg-sky-300">Sign In</Link>
       </div>
 
       <form
